@@ -1,0 +1,53 @@
+h4 {
+    text-align: center;
+    margin-top: 3%;
+    color: brown;
+}
+
+.slide-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.slider {
+    background-color: rgb(235, 238, 91);
+    margin-left: 20px;
+    width: 80%;
+    height: 20px;
+    
+}
+
+.range {
+    background-color: brown;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 32px;
+    position: relative;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#title {
+    color: brown;
+    margin-top: 3%;
+    margin-left: 46%;
+}
+
+.maxmin {
+    display: flex;
+    justify-content: center;
+}
+
+#max, #min {
+    margin-right: 1px;
+    margin-left: 1px;
+    width: 15%;
+    height: 3%;
+    border-width: 2px;
+    border-color: 1px;
+    border-style: double;
+    display: inline-block;
+}
